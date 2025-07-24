@@ -1,0 +1,44 @@
+# Ignore the data folder inside src
+/src/data/
+
+# Keep Jupyter notebooks but ignore metadata files
+# Jupyter metadata files typically end with `.ipynb_checkpoints`
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments (adjust name if yours is different)
+venv/
+env/
+.venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore compiled files
+*.so
+*.dylib
+*.dll
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+
+# Ignore environment and dependency files (optional, if you don’t want to track)
+*.env
+.env.*
+
+# Ignore IDE/editor config files (optional, common ones)
+.vscode/
+.idea/
+
+
