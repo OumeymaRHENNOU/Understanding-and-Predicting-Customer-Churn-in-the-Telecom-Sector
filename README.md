@@ -23,21 +23,7 @@ The goal is to develop an accurate and interpretable model to **predict customer
 - Pandas, NumPy
 - Scikit-learn
 - XGBoost
-- Matplotlib / Seaborn (for EDA)
-
----
-
-## 🚀 Models Trained
-
-| Model                  | Accuracy | Notes                            |
-|------------------------|----------|----------------------------------|
-| Logistic Regression    | ✅       | Baseline model                   |
-| Random Forest          | ✅       | Good precision/recall balance    |
-| XGBoost                | ✅       | Tuned with `scale_pos_weight`   |
-| K-Nearest Neighbors    | ✅       | Sensitive to scaling             |
-| Support Vector Machine | ✅       | Less performant in this case     |
-
-👉 Hyperparameter tuning and imbalance handling (e.g. `scale_pos_weight`) were applied for better generalization.
+- Matplotlib / Seaborn 
 
 ---
 
@@ -61,7 +47,7 @@ The goal is to develop an accurate and interpretable model to **predict customer
 
 ## 📈 Future Improvements
 
-- Perform **hyperparameter tuning** using `GridSearchCV` or `Optuna`
+- Perform **hyperparameter tuning** using `GridSearchCV`
 - Add **model explainability** with SHAP or LIME
 - Deploy model using Flask or Streamlit for demonstration
 - Improve recall on the churn class using resampling methods
@@ -72,7 +58,7 @@ The goal is to develop an accurate and interpretable model to **predict customer
 
 For any questions or collaboration opportunities:
 
-**Oumeyma Rhouma**  
-[📧 your.email@example.com] <!-- Replace with your real email -->  
-[🌐 LinkedIn/GitHub profile (optional)]
+**Oumeyma Rhennou**  
+[📧 oumeyma.rhennou01@gmail.com]
+
 
